@@ -8,8 +8,12 @@
 int main(void)
 {
 	int n;
-	for (n = 0; n > 10; n++)
+
+	while (n < 10)
+	{
 		printf("%d", n);
-	printf("\n");
+		n += 1;
+	}
+	printf("\n")
 	return (0);
 }
