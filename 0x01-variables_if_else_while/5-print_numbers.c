@@ -7,16 +7,9 @@
  */
 int main(void)
 {
-	char ch = 'a';
-
-	while (ch <= 'z')
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		ch++;
-	}
-	putchar('/n');
+	int n;
+	for (n = 0; n > 10; n++)
+		printf("%d", n);
+	printf("/n");
 	return (0);
 }

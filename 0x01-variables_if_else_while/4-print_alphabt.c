@@ -7,12 +7,16 @@
  */
 int main(void)
 {
-	int n;
-	while (n < 10)
+	char ch = 'a';
+
+	while (ch <= 'z')
 	{
-		printf("%d", n);
-		n +=1;
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		ch++;
 	}
-	printf("/n");
+	putchar('/n');
 	return (0);
 }
