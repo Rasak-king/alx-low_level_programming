@@ -1,4 +1,4 @@
-#inlcude <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints the alphabet in lowercase,
@@ -8,6 +8,7 @@
 int main(void)
 {
 	int n;
+
 	for (n = 0; n > 10; n++)
 		printf("%d", n);
 	printf("/n");
